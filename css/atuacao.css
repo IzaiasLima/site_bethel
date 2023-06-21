@@ -1,0 +1,84 @@
+#atuacao {
+    position: relative;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+#atuacao .bg {
+    display: flex;
+    width: auto;
+    min-height: fit-content;
+    height: 100%;
+    justify-content: center;
+    background-image: url('../images/jovens.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#atuacao .content {
+    position: relative;
+    /* height: 100%; */
+    min-height: 90vh;
+    left: 20%;
+    width: 50%;
+    padding: 80px 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#atuacao .content h1 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+#atuacao .content a {
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#atuacao .content p {
+    padding: 1em 0;
+}
+
+
+@media (max-width: 992px) {   
+    #atuacao .content {
+        left: 0;
+        width: 100%;
+        padding: 4rem 1.5rem;
+        font-size: 1.1rem;
+        color: var(--bright);
+        background-color: rgb(75, 75, 75, .75);
+    }
+
+    #atuacao .content h1 {
+        margin-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+} 
+
+@media (max-width: 576px) {
+    #atuacao {
+        max-height: fit-content;
+    }
+    
+    #atuacao .bg {
+        justify-content: start;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    #atuacao .content {
+        left: 0;
+        width: 100vw;
+        text-align: start;
+        color: var(--bright);
+        background-color: rgb(75, 75, 75, .7);
+    }
+
+    #atuacao .content h1 {
+        font-size: 1.2rem;
+    }
+}

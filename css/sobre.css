@@ -1,0 +1,51 @@
+#sobre {
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(75, 75, 75, 0.2);
+}
+
+#sobre .bg {
+  width: auto;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/culto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sobre .content {
+  position: relative;
+  left: 0;
+  width: 80%;
+  padding: 5em 0;
+  font-size: 1.3rem;
+  color: var(--bright);
+}
+
+#sobre .content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#sobre .content p {
+  padding: 1rem 0;
+}
+
+@media (max-width: 992px) {
+  #sobre {
+    max-height: fit-content;
+  }
+
+  #sobre .content {
+    width: 100%;
+    padding: 3rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  #sobre .content h1 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+}
