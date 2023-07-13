@@ -1,20 +1,20 @@
 #horarios {
   position: relative;
-  background-color: var(--secondary);
+  background-color: #eee;
 }
 
 #horarios .bg {
   display: flex;
-  width: auto;
-  min-height: fit-content;
   height: 100%;
-  padding: 0;
-  padding-top: 85px;
+  min-height: fit-content;
+  padding: 85px 25px;
   justify-content: center;
 }
 
 #horarios .bg .content {
   position: relative;
+  margin: auto;
+  width: 85vw;
   min-height: 90vh;
   font-size: 1.1rem;
   text-align: left;
@@ -30,7 +30,7 @@
 }
 
 #horarios .content tr {
-  border-bottom: solid 2px var(--shadow);
+  border-bottom: solid 1px var(--shadow);
 }
 
 #horarios .content th {
@@ -44,27 +44,26 @@
 
 #horarios .content a {
   color: var(--primary);
-  font-size:1.2rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 #horarios .content p {
-  padding: 1em 0;
+  padding-top: 2.5rem;
+  padding-right: 2rem;
 }
 
-#horarios .content .action {
-  display: flex;
-  justify-content: center;
+#horarios .content p span::after {
+  content: "com nossa secretaria";
 }
 
-#horarios .content .action a {
-  color: var(--bright);
-}
+@media (max-width: 576px) {
+  #horarios {
+    max-height: fit-content;
+  }
 
-@media (max-width: 992px) {
   #horarios .bg {
     padding: 0;
-    background-color: rgb(185, 185, 185, 0.5);
   }
 
   #horarios .bg .content {
@@ -72,45 +71,41 @@
     width: 100%;
     min-height: fit-content;
     padding: 4rem 0.8rem;
-    font-size: 1.1rem;
-  }
-
-  #horarios .bg .content h1 {
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: var(--dark);
   }
-}
 
-@media (max-width: 576px) {
-  #horarios {
-    max-height: fit-content;
-  }
-  
   #horarios .content a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 300;
   }
 
   #horarios .content table {
-    color: var(--dark);
     font-size: 0.8rem;
   }
-  
+
   #horarios .content th,
   #horarios .content td {
     text-align: left;
     padding: 5px;
   }
-  
+
   #horarios .bg .content {
     left: 0;
     width: 100vw;
     text-align: start;
-    color: var(--bright);
     margin-bottom: 30px;
   }
 
   #horarios .content h1 {
     font-size: 1.2rem;
+  }
+
+  #horarios .content p {
+    padding-right: 0;
+  }
+
+  #horarios .content p span::after {
+    content: "";
   }
 }
