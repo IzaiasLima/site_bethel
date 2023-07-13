@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+table { 
+  border-collapse: collapse; 
+}
+
 .fade {
   position: relative;
   transform: translateY(100px);

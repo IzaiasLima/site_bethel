@@ -2,11 +2,12 @@
   width: 100%;
   min-height: 90vh;
   background-color: rgb(75, 75, 75, 0.2);
+  overflow-x: hidden;
 }
 
 #sobre .bg {
   width: auto;
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;

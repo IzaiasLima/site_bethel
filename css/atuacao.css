@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   background-color: var(--secondary);
+  overflow-x: hidden;
 }
 
 #atuacao .bg {
@@ -9,14 +10,11 @@
   width: auto;
   min-height: fit-content;
   height: 100%;
+  padding: 65px 0 10px;
   justify-content: center;
   background-image: url("../images/jovens.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-#atuacao .bg {
-  padding: 65px 0 10px;
 }
 
 #atuacao .bg .content {

@@ -17,6 +17,7 @@ header .content {
   height: 45px;
   width: 100%;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 header .content .logo {

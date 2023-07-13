@@ -8,7 +8,8 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/relogio.css" />
     <title>AD Bethel</title>
   </head>
 
@@ -22,6 +23,7 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#atuacao">Atuação</a></li>
+            <li><a href="index.html#horarios">Horários</a></li>
             <li><a href="#sobre">Quem Somos</a></li>
             <li><a href="#footer">Contato</a></li>
           </ul>
@@ -72,7 +74,6 @@
                 >, que trabalha com a premissa de que o ensino pode e deve ser
                 realizado em parceria com os pais.
               </p>
-              <!-- <a href="atuacao_ncc.html">Quero saber mais</a> -->
               <div class="action">
                 <div class="button">
                   <a href="atuacao_ncc.html">Quero saber mais</a>
@@ -128,6 +129,81 @@
                 Jesus e a inspirar outras pessoas a se tornarem templo do
                 Espírito Santo, resultando no crescimento do número dos salvos.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="horarios">
+        <div id="clockContainer">
+          <div id="hour">
+            <div id="minute">
+              <div id="second"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg">
+          <div class="content">
+            <div class="fade">
+              <h1>Horários</h1>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Evento</th>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                    <th>Local</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Culto Público</td>
+                    <td>Domingo</td>
+                    <td class="hora">18h30</td>
+                    <td>AD Bethel</td>
+                  </tr>
+                  <tr>
+                    <td>Bethel Kids</td>
+                    <td>Domingo</td>
+                    <td class="hora">8h30</td>
+                    <td>Espaço Bethel (Casarão)</td>
+                  </tr>
+                  <tr>
+                    <td>Reunião de Oração</td>
+                    <td>Quarta-feira</td>
+                    <td class="hora">8h30</td>
+                    <td>AD Bethel</td>
+                  </tr>
+                  <tr>
+                    <td>NCC Vida (pais com crianças no Espaço Kids)</td>
+                    <td>Domingo</td>
+                    <td class="hora">8h30</td>
+                    <td>Espaço Bethel (Casarão)</td>
+                  </tr>
+                  <tr>
+                    <td>Outros Núcleos de Convivência (NCC)</td>
+                    <td>De terça a domingo</td>
+                    <td class="hora">Vários</td>
+                    <td>
+                      <a target="_blank" href="https://wa.me/5561991567887">
+                        Consulte pelo Whatsapp
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Cursilho Misto Bethel</td>
+                    <td>15 a 17/09/2023</td>
+                    <td class="hora">Integral</td>
+                    <td>
+                      <a target="_blank" href="https://wa.me/5561991567887">
+                        Consulte pelo Whatsapp
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
@@ -195,23 +271,27 @@
 
       <div class="social fade">
         <h4>Nossas redes sociais</h4>
-          <a target="_blank" href="https://wa.me/5561991567887">
-            <i class="fa fa-whatsapp"></i><span>Whatsapp: (61)99156-7887</span>
-          </a>
+        <a target="_blank" href="https://wa.me/5561991567887">
+          <i class="fa fa-whatsapp"></i><span>Whatsapp: (61)99156-7887</span>
+        </a>
 
-          <a target="_blank" href="https://www.instagram.com/adbetheldf">
-            <span><i class="fa fa-instagram"></i></span><span>Instagram: @adbetheldf</span>
-          </a>
+        <a target="_blank" href="https://www.instagram.com/adbetheldf">
+          <span><i class="fa fa-instagram"></i></span
+          ><span>Instagram: @adbetheldf</span>
+        </a>
 
-          <a
-            target="_blank"
-            href="https://www.youtube.com/@IgrejaADBethel/featured"
-          >
-            <i class="fa fa-youtube"></i><span>Youtube: @IgrejaADBethel</span>
-          </a>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/@IgrejaADBethel/featured"
+        >
+          <i class="fa fa-youtube"></i><span>Youtube: @IgrejaADBethel</span>
+        </a>
       </div>
     </footer>
 
     <script src="functions.js"></script>
+    <script>
+      startClock();
+    </script>
   </body>
 </html>
