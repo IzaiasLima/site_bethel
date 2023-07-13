@@ -67,7 +67,6 @@
   }
 
   #ncc .content h1 {
-    /* margin-bottom: 0; */
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     color: var(--dark);
