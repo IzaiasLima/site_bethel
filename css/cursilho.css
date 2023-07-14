@@ -1,72 +1,75 @@
-#ncc {
+#cursilho {
   position: relative;
   display: flex;
   width: auto;
-  padding-top: 55px;
+  /* flex-direction: column; */
+  /* padding-top: 55px; */
   min-height: fit-content;
-  height: 100%;
+  /* height: 200vh; */
   overflow: hidden;
 }
 
-#ncc .bg {
+#cursilho .bg {
+  /* display: flex; */
   position: relative;
-  display: flex;
-  width: auto;
-  height: 100%;
+  width: 100wv;
+  /* width: 1920px; */
+  /* height: auto; */
   padding: 65px 0 10px;
   background-color: var(--secondary);
-  background-image: url("../images/selfie2.png");
+  background-image: url("../images/cursilho.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#ncc .content {
+#cursilho .content {
   position: relative;
-  min-height: 70vh;
-  padding: 320px 100px 50px;
+  /* display: flex; */
+  width: auto;
+  height: fit-content;
+  padding: 500px 100px 50px;
   font-size: 1.1rem;
   text-align: start;
 }
 
-#ncc .content h1 {
-  margin-bottom: 1.5rem;
+#cursilho .content h1 {
+  margin-bottom: 1.2rem;
   font-size: 2rem;
   color: var(--dark);
   text-align: center;
 }
 
-#ncc .content a {
+#cursilho .content a {
   color: var(--primary);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-#ncc .content p {
+#cursilho .content p {
   padding-bottom: 1.2em;
 }
 
-#ncc .content .action {
+#cursilho .content .action {
   display: flex;
   justify-content: center;
 }
 
-#ncc .content .action a {
+#cursilho .content .action a {
   color: var(--bright);
 }
 
 @media (max-width: 992px) {
-  #ncc .content h1 {
-    margin-bottom: 1.5rem;
+  #cursilho .content h1 {
     font-size: 1.2rem;
   }
 }
 
 @media (max-width: 576px) {
-  #ncc .content {
+  #cursilho .content {
     padding: 80px 30px 20px;
   }
 
-  #ncc .content h1 {
+  #cursilho .content h1 {
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     color: var(--dark);

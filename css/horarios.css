@@ -22,7 +22,8 @@
 
 #horarios .content h1 {
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 #horarios .content table {
@@ -42,7 +43,7 @@
   padding-right: 40px;
 }
 
-#horarios .content a {
+#horarios .content a.primary {
   color: var(--primary);
   font-size: 1.2rem;
   font-weight: 600;

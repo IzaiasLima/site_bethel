@@ -46,3 +46,43 @@ table {
   transform: translateY(0px);
   opacity: 1;
 }
+
+.badge {
+  height: 1.5rem;
+  width: auto;
+  padding: 2px 8px;
+  background-color: var(--primary);
+  color: var(--bright);
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tip {
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  z-index: 1;
+  
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: var(--primary);
+  font-size: .8em;
+  color:var(--bright);
+  text-align: left;
+  
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip:hover .tip {
+  visibility: visible;
+  opacity: 1;
+}
