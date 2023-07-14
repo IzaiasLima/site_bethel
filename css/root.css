@@ -50,7 +50,7 @@ table {
 .badge {
   height: 1.5rem;
   width: auto;
-  padding: 2px 8px;
+  padding: 0 7px;
   background-color: var(--primary);
   color: var(--bright);
   font-weight: 700;
