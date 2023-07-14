@@ -33,7 +33,6 @@ footer .social {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
-  /* font-size: 3.17rem; */
   color: var(--soft);
 }
 

@@ -1,6 +1,5 @@
 :root {
   --primary: #d6a340;
-   /* --primary: #e9b200; */
   --secondary: #ddd;
   --dark: #222;
   --bright: #ffffff;
@@ -14,10 +13,6 @@
   padding: 0;
   font-family: Poppins, Verdana, Tahoma, sans-serif;
 }
-
-/* html {
-    scroll-behavior: smooth;
-} */
 
 body {
   margin: auto;

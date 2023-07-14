@@ -60,7 +60,6 @@
     left: 0;
     width: 100%;
     padding: 4rem 1.5rem 0;
-    /* padding-bottom: 0; */
     font-size: 1.1rem;
     color: var(--bright);
     background-color: rgb(75, 75, 75, 0.05);
@@ -80,7 +79,6 @@
   #atuacao .bg {
     justify-content: start;
     background-size: contain;
-    /* background-position: 50%; */
     background-image: url("../images/selfie.png");
   }
 

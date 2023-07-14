@@ -2,19 +2,13 @@
   position: relative;
   display: flex;
   width: auto;
-  /* flex-direction: column; */
-  /* padding-top: 55px; */
   min-height: fit-content;
-  /* height: 200vh; */
   overflow: hidden;
 }
 
 #cursilho .bg {
-  /* display: flex; */
   position: relative;
   width: 100wv;
-  /* width: 1920px; */
-  /* height: auto; */
   padding: 65px 0 10px;
   background-color: var(--secondary);
   background-image: url("../images/cursilho.jpg");
@@ -24,10 +18,9 @@
 
 #cursilho .content {
   position: relative;
-  /* display: flex; */
   width: auto;
   height: fit-content;
-  padding: 500px 100px 50px;
+  padding: 400px 100px 50px;
   font-size: 1.1rem;
   text-align: start;
 }
@@ -41,7 +34,7 @@
 
 #cursilho .content a {
   color: var(--primary);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 600;
 }
 
@@ -66,7 +59,7 @@
 
 @media (max-width: 576px) {
   #cursilho .content {
-    padding: 110px 30px 20px;
+    padding: 90px 30px 20px;
   }
 
   #cursilho .content h1 {

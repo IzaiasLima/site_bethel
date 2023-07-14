@@ -45,7 +45,7 @@
 
 #horarios .content a.primary {
   color: var(--primary);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -79,6 +79,10 @@
   #horarios .content a {
     font-size: 0.8rem;
     font-weight: 300;
+  }
+
+  #horarios .content a.primary {
+    font-size: 1rem;
   }
 
   #horarios .content table {
