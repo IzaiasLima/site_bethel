@@ -16,6 +16,7 @@ function fade() {
   }
 }
 
+// Funcionamento do relógio
 const startClock = function () {
   return setInterval(() => {
     d = new Date(); 
@@ -31,3 +32,9 @@ const startClock = function () {
     second.style.transform = `rotate(${sec_rotation}deg)`;
   }, 1000);
 };
+
+// Menu responsivo
+function menu() {
+  var x = document.getElementById("menu");
+  x.classList.toggle("mobile");
+}
