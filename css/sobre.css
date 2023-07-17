@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/culto.jpg");
+  background-image: url(".././images/culto.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

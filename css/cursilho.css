@@ -11,7 +11,7 @@
   width: 100wv;
   padding: 65px 0 10px;
   background-color: var(--secondary);
-  background-image: url("../images/cursilho.jpg");
+  background-image: url(".././images/cursilho.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }

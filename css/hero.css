@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   min-height: fit-content;
-  background-image: url("../images/biblia.jpg");
+  background-image: url(".././images/biblia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
