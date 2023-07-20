@@ -19,16 +19,6 @@ header {
   padding-left: 0.4em;
 }
 
-.navbar {
-  padding: 0.4em 0.8em;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-}
-
 nav {
   font-size: 1.2rem;
   font-weight: 500;
@@ -59,6 +49,16 @@ nav a {
   nav a:hover::after {
     width: 63%;
   }
+}
+
+.navbar {
+  padding: 0.4em 0.8em;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
 }
 
 .navbar .icon {

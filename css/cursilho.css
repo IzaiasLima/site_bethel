@@ -55,11 +55,19 @@
   #cursilho .content h1 {
     font-size: 1.2rem;
   }
+
+  #cursilho .content {
+    padding-top: 300px;
+  }
 }
 
 @media (max-width: 576px) {
+  #cursilho .bg {
+    background-image: url(".././images/cursilho_mini.jpg");
+  }
+
   #cursilho .content {
-    padding: 90px 30px 20px;
+    padding: 220px 30px 20px;
   }
 
   #cursilho .content h1 {
