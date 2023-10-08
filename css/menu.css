@@ -33,6 +33,32 @@ nav a {
   text-decoration: none;
 }
 
+/* AcampaKids */
+nav a.kids,
+a.kids {
+  padding-left: 1rem;
+  background-color: rgb(206, 100, 0);
+  color: rgb(255, 255, 255) !important;
+  border-radius: 15px;
+}
+
+div.acamp {
+  padding-top: 2rem;
+}
+
+div.acamp a.kids {
+  padding: 1rem;
+  font-size: 2.24rem;
+}
+
+@media screen and (max-width: 992px) {
+  div.acamp a.kids {
+    font-size: 1.2rem;
+  }
+}
+
+/* FIM AcampaKids */
+
 @media screen and (min-width: 993px) {
   nav a::after {
     content: "";
