@@ -11,7 +11,7 @@
   width: 100wv;
   padding: 65px 0 10px;
   background-color: var(--secondary);
-  background-image: url(".././images/buffet.png");
+  background-image: url(".././images/buffet.webp");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -63,7 +63,7 @@
 
 @media (max-width: 576px) {
   #cursilho .bg {
-    background-image: url(".././images/buffet_mini.png");
+    background-image: url(".././images/buffet_mini.webp");
   }
 
   #cursilho .content {
