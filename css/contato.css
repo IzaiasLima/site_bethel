@@ -1,16 +1,20 @@
+/* #footer {
+  padding: 0px 50px;
+} */
+
 footer {
   position: relative;
-  min-height: 90vh;
-  padding: 60px 10px 60px 50px;
-  color: var(--primary);
+  /* min-height: 90vh; */
+  /* padding: 60px 10px 60px 50px; */
+  /* color: var(--primary); */
   background-color: var(--dark);
   overflow: hidden;
 }
 
-footer h1 {
+/* footer h1 {
   margin-bottom: 1rem;
   text-align: center;
-}
+} */
 
 footer .contato {
   display: flex;
@@ -29,7 +33,7 @@ footer .contato a {
 }
 
 footer .social {
-  padding: 80px 0px;
+  /* padding: 40px 0px; */
   display: flex;
   flex-direction: column;
   font-size: 3rem;
@@ -43,7 +47,7 @@ footer .social h4 {
 footer .social a {
   display: flex;
   align-items: center;
-  padding: .3rem 0;
+  padding: 0.3rem 0;
   font-size: 1.17rem;
   color: var(--soft);
   text-decoration: none;
@@ -55,9 +59,32 @@ footer .social .fa {
   margin-right: 6px;
 }
 
+h1.footer {
+  padding: 4rem 0 2rem;
+  /* margin-bottom: 1.5rem; */
+  text-align: center;
+  color: var(--primary);
+}
+
+iframe.endereco,
+iframe.midias {
+  overflow: hidden;
+  /* padding: 20px 0px; */
+  height: 15rem;
+  width: 100%;
+}
+
+iframe.midias {
+  height: 25rem;
+}
+
 @media (max-width: 992px) {
-  footer {
-    padding: 4rem 1.5rem;
+  /* footer {
+    padding: 0 1.5rem;
+  } */
+
+  #footer {
+    padding: 0.8rem;
   }
 
   footer .contato {
@@ -66,32 +93,47 @@ footer .social .fa {
     justify-content: start;
   }
 
-  footer .contato .address,
-    footer .contato .redes {
+  footer .contato .endereco,
+  footer .contato .redes {
     padding-top: 2rem;
     font-size: 1.1rem;
   }
 
-  footer h1 {
+  h1.footer {
     margin-bottom: 0;
     font-size: 1.2rem;
     text-align: start;
   }
 
+  /* footer h1 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    text-align: start;
+  } */
+
   footer .social {
-    padding: 1em 0;
+    /* padding: 1em 0; */
     justify-content: start;
   }
 
   footer .social a {
-    margin-right: .9rem;
+    margin-right: 0.9rem;
   }
 
   footer .social span {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   footer .social h4 {
     margin-top: 20px;
+  }
+
+  /* iframe.footer {
+    height: 1200px;
+  } */
+
+  iframe.endereco,
+  iframe.midias {
+    height: 45rem;
   }
 }
