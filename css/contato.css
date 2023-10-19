@@ -1,50 +1,31 @@
-/* #footer {
-  padding: 0px 50px;
-} */
-
-footer {
-  position: relative;
-  /* min-height: 90vh; */
-  /* padding: 60px 10px 60px 50px; */
-  /* color: var(--primary); */
-  background-color: var(--dark);
-  overflow: hidden;
-}
-
-/* footer h1 {
-  margin-bottom: 1rem;
-  text-align: center;
-} */
-
-footer .contato {
+section .contato {
   display: flex;
   color: var(--soft);
   background-color: var(--dark);
   justify-content: space-between;
 }
 
-footer .contato p {
+section .contato p {
   font-size: 0.9rem;
 }
 
-footer .contato a {
+section .contato a {
   color: var(--soft);
   text-decoration: none;
 }
 
-footer .social {
-  /* padding: 40px 0px; */
+section .social {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
   color: var(--soft);
 }
 
-footer .social h4 {
+section .social h4 {
   font-size: 1.17rem;
 }
 
-footer .social a {
+section .social a {
   display: flex;
   align-items: center;
   padding: 0.3rem 0;
@@ -53,7 +34,7 @@ footer .social a {
   text-decoration: none;
 }
 
-footer .social .fa {
+section .social .fa {
   font-size: 2rem;
   color: var(--primary);
   margin-right: 6px;
@@ -61,7 +42,6 @@ footer .social .fa {
 
 h1.footer {
   padding: 4rem 0 2rem;
-  /* margin-bottom: 1.5rem; */
   text-align: center;
   color: var(--primary);
 }
@@ -69,7 +49,6 @@ h1.footer {
 iframe.endereco,
 iframe.midias {
   overflow: hidden;
-  /* padding: 20px 0px; */
   height: 15rem;
   width: 100%;
 }
@@ -79,22 +58,18 @@ iframe.midias {
 }
 
 @media (max-width: 992px) {
-  /* footer {
-    padding: 0 1.5rem;
-  } */
-
   #footer {
     padding: 0.8rem;
   }
 
-  footer .contato {
+  section .contato {
     flex-direction: column;
     width: 100%;
     justify-content: start;
   }
 
-  footer .contato .endereco,
-  footer .contato .redes {
+  section .contato .endereco,
+  section .contato .redes {
     padding-top: 2rem;
     font-size: 1.1rem;
   }
@@ -105,32 +80,21 @@ iframe.midias {
     text-align: start;
   }
 
-  /* footer h1 {
-    margin-bottom: 0;
-    font-size: 1.2rem;
-    text-align: start;
-  } */
-
-  footer .social {
-    /* padding: 1em 0; */
+  section .social {
     justify-content: start;
   }
 
-  footer .social a {
+  section .social a {
     margin-right: 0.9rem;
   }
 
-  footer .social span {
+  section .social span {
     font-size: 0.9rem;
   }
 
-  footer .social h4 {
+  section .social h4 {
     margin-top: 20px;
   }
-
-  /* iframe.footer {
-    height: 1200px;
-  } */
 
   iframe.endereco,
   iframe.midias {
