@@ -1,5 +1,11 @@
+#footer {
+  padding: 0.8rem;
+}
+
 section .contato {
   display: flex;
+  flex-direction: row;
+  /* width: 100%; */
   color: var(--soft);
   background-color: var(--dark);
   justify-content: space-between;
@@ -41,7 +47,7 @@ section .social .fa {
 }
 
 h1.footer {
-  padding: 4rem 0 2rem;
+  padding: 3rem 0 1.5rem;
   text-align: center;
   color: var(--primary);
 }
@@ -62,11 +68,11 @@ iframe.midias {
     padding: 0.8rem;
   }
 
-  section .contato {
+  /* section .contato {
     flex-direction: column;
-    width: 100%;
     justify-content: start;
-  }
+    width: 100%;
+  } */
 
   section .contato .endereco,
   section .contato .redes {
@@ -84,9 +90,9 @@ iframe.midias {
     justify-content: start;
   }
 
-  section .social a {
+  /* section .social a {
     margin-right: 0.9rem;
-  }
+  } */
 
   section .social span {
     font-size: 0.9rem;
