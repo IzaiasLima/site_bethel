@@ -68,15 +68,16 @@ iframe.midias {
     padding: 0.8rem;
   }
 
-  /* section .contato {
+  section .contato {
     flex-direction: column;
     justify-content: start;
     width: 100%;
-  } */
+  }
 
   section .contato .endereco,
   section .contato .redes {
     padding-top: 2rem;
+    padding-right: 1rem;
     font-size: 1.1rem;
   }
 

@@ -3,7 +3,7 @@
   --secondary: #ddd;
   --dark: #222;
   --bright: #ffffff;
-  --soft: #777;
+  --soft: #999;
   --shadow: #aaa;
 }
 
@@ -26,8 +26,8 @@ a {
   text-decoration: none;
 }
 
-table { 
-  border-collapse: collapse; 
+table {
+  border-collapse: collapse;
 }
 
 .fade {
@@ -63,15 +63,15 @@ table {
   bottom: 100%;
   left: 20%;
   z-index: 1;
-  
+
   width: fit-content;
   padding: 5px 10px;
   border-radius: 15px;
   background-color: var(--primary);
   font-size: .8em;
-  color:var(--bright);
+  color: var(--bright);
   text-align: left;
-  
+
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s;
