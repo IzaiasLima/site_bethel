@@ -19,7 +19,7 @@ function fade() {
 // Funcionamento do relógio
 const startClock = function () {
   return setInterval(() => {
-    d = new Date(); 
+    d = new Date();
     hr = d.getHours();
     min = d.getMinutes();
     sec = d.getSeconds();
@@ -37,4 +37,8 @@ const startClock = function () {
 function menu() {
   var x = document.getElementById("menu");
   x.classList.toggle("mobile");
+}
+
+function resizeIframe(obj) {
+  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
 }
