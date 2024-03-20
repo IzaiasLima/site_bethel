@@ -99,12 +99,12 @@ iframe.midias {
     font-size: 0.9rem;
   }
 
-  section .social h4 {
-    margin-top: 25px;
-  }
-
   iframe.endereco,
   iframe.midias {
     height: 45rem;
+  }
+
+  section .social h4 {
+    margin-top: 30px;
   }
 }
