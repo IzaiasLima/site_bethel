@@ -39,6 +39,6 @@ function menu() {
   x.classList.toggle("mobile");
 }
 
-function resizeIframe(obj) {
-  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+function resize(iframe) {
+  iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
 }
